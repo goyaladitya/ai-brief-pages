@@ -1,0 +1,41 @@
+{
+  "id": 217,
+  "generated_at": "2026-08-29T09:49:14.770860",
+  "item_count": 2,
+  "sources_checked": 6,
+  "sources_failed": 0,
+  "items": [
+    {
+      "headline": "Researching and Testing AI Guardrails Without Running LLMs Locally",
+      "summary": "&#32; submitted by &#32;  /u/LouisTitor   [link] &#32; [comments]",
+      "url": "https://www.reddit.com/r/LangChain/comments/1w191gw/researching_and_testing_ai_guardrails_without/",
+      "published_at": "2026-08-29T09:49:13.736296+00:00",
+      "platforms": "reddit",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.825,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.4,
+      "source_id": "reddit:LangChain:t3_1w191gw",
+      "source_name": "r/LangChain"
+    },
+    {
+      "headline": "ai-dynamo/dynamo",
+      "summary": "A Datacenter Scale Distributed Inference Serving Framework",
+      "url": "https://github.com/ai-dynamo/dynamo",
+      "published_at": "2026-08-29T09:49:14.730426+00:00",
+      "platforms": "github",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.62,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.44,
+      "source_id": "github:ai-dynamo/dynamo",
+      "source_name": "GitHub (Rust)"
+    }
+  ]
+}

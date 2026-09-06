@@ -1,0 +1,73 @@
+{
+  "id": 4,
+  "generated_at": "2026-01-28T04:07:37.597704",
+  "item_count": 4,
+  "sources_checked": 6,
+  "sources_failed": 0,
+  "items": [
+    {
+      "headline": "Anthropic, please clarify acceptable use of the Claude Agent SDK",
+      "summary": "So I'm building a &quot;web-based AI-centric-but-not-enforced IDE-ish developer workbench&quot; (catchy, eh?), which is meant to be an Umbrella around available SDKs &amp; APIs, like - Claude Agent SDK - GitHub Copilot SDK - Codex app-server - Gemini SDK - and - of course - a generic OpenAI-API-compatible &quot;adapter&quot; Attaching a screenshot to show the &quot;type of application&quot;. It already imports and visualizes sessions from the four &quot;CLI-based&quot; adapters and the mai",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1qofa67/anthropic_please_clarify_acceptable_use_of_the/",
+      "published_at": "2026-01-28T04:07:36.316303+00:00",
+      "platforms": "reddit",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.883,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.475,
+      "source_id": "reddit:ClaudeAI:t3_1qofa67",
+      "source_name": "r/ClaudeAI"
+    },
+    {
+      "headline": "I built a local-first AI tool: generate ST character cards via local-first LLM endpoints or openai API + optional image backends \u2014 feedback wanted",
+      "summary": "I built an open-source, local-first Character Card Generator for SillyTavern character cards (JSON + PNG cards). It\u2019s a Vue/Node web app that talks to your local LLM endpoint (KoboldCPP or OpenAI-compatible), and optionally your local image backend (ComfyUI / SDAPI). What it does  Generates ST fields with structured output (supports \u201cfill missing fields\u201d + regenerate selected fields) Field detail presets: Short / Detailed / Verbose + per-field overrides Timeouts + max token controls for long gen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1qogkgr/i_built_a_localfirst_ai_tool_generate_st/",
+      "published_at": "2026-01-28T04:07:36.508468+00:00",
+      "platforms": "reddit",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.883,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.5,
+      "source_id": "reddit:LocalLLaMA:t3_1qogkgr",
+      "source_name": "r/LocalLLaMA"
+    },
+    {
+      "headline": "OpenBMB/UltraRAG",
+      "summary": "UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines",
+      "url": "https://github.com/OpenBMB/UltraRAG",
+      "published_at": "2026-01-28T04:07:36.835516+00:00",
+      "platforms": "github",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.62,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.387,
+      "source_id": "github:OpenBMB/UltraRAG",
+      "source_name": "GitHub (Python)"
+    },
+    {
+      "headline": "SpecBridge: Bridging Mass Spectrometry and Molecular Representations via Cross-Modal Alignment",
+      "summary": "arXiv:2601.17204v2 Announce Type: new \nAbstract: Small-molecule identification from tandem mass spectrometry (MS/MS) remains a bottleneck in untargeted settings where spectral libraries are incomplete. While deep learning offers a solution, current approaches typically fall into two extremes: explicit generative models that construct molecular graphs atom-by-atom, or joint contrastive models that learn cross-modal subspaces from scratch. We introduce SpecBridge, a novel implicit alignment framew",
+      "url": "https://arxiv.org/abs/2601.17204",
+      "published_at": "2026-01-27T00:00:00-05:00",
+      "platforms": "arxiv",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.324,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.37,
+      "source_id": "arxiv:2601.17204",
+      "source_name": "ArXiv (cs.LG)"
+    }
+  ]
+}

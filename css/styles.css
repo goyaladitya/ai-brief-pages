@@ -1,0 +1,38 @@
+/* Terminal aesthetic */
+body {
+    font-family: ui-monospace, 'Cascadia Code', 'Fira Code', Menlo, Monaco, monospace;
+}
+
+/* Hotness colors */
+.hotness-hot { color: #f85149; }
+.hotness-high { color: #d29922; }
+.hotness-med { color: #7d8590; }
+.hotness-low { color: #7d8590; opacity: 0.6; }
+
+/* Light mode hotness */
+:not(.dark) .hotness-hot { color: #cf222e; }
+:not(.dark) .hotness-high { color: #9a6700; }
+:not(.dark) .hotness-med { color: #656d76; }
+
+/* Score dots */
+.score-dots { color: #3fb950; }
+:not(.dark) .score-dots { color: #1a7f37; }
+
+/* Loading spinner */
+.spinner {
+    display: inline-block;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* Active nav link */
+.nav-active {
+    color: #58a6ff;
+}
+:not(.dark) .nav-active {
+    color: #0969da;
+}

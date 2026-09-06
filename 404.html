@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Brief</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        term: {
+                            bg: '#0d1117',
+                            surface: '#161b22',
+                            border: '#30363d',
+                            text: '#e6edf3',
+                            muted: '#7d8590',
+                            link: '#58a6ff',
+                            green: '#3fb950',
+                            yellow: '#d29922',
+                            red: '#f85149',
+                        },
+                        light: {
+                            bg: '#fafafa',
+                            surface: '#f0f0f0',
+                            border: '#d0d7de',
+                            text: '#1f2328',
+                            muted: '#656d76',
+                            link: '#0969da',
+                            green: '#1a7f37',
+                            yellow: '#9a6700',
+                            red: '#cf222e',
+                        }
+                    },
+                    fontFamily: {
+                        mono: ['ui-monospace', 'Cascadia Code', 'Fira Code', 'Menlo', 'Monaco', 'monospace']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Dark mode toggle script - default to dark -->
+    <script>
+        if (localStorage.theme === 'light') {
+            document.documentElement.classList.remove('dark');
+        } else {
+            document.documentElement.classList.add('dark');
+            if (!('theme' in localStorage)) {
+                localStorage.theme = 'dark';
+            }
+        }
+    </script>
+</head>
+<body class="h-full bg-light-bg dark:bg-term-bg text-light-text dark:text-term-text">
+    <div class="min-h-full flex flex-col max-w-4xl mx-auto px-4 sm:px-6">
+        <!-- Navigation Box -->
+        <nav class="mt-4 border border-light-border dark:border-term-border">
+            <div class="flex items-center justify-between px-4 py-2">
+                <!-- Left: Logo -->
+                <a href="#/" class="font-bold tracking-wide">AI BRIEF</a>
+
+                <!-- Right: Nav links -->
+                <div class="flex items-center gap-1 text-sm">
+                    <a href="#/"
+                       id="nav-today"
+                       class="px-2 py-1 hover:text-light-link dark:hover:text-term-link">
+                        [Today]
+                    </a>
+                    <a href="#/history"
+                       id="nav-history"
+                       class="px-2 py-1 hover:text-light-link dark:hover:text-term-link">
+                        [History]
+                    </a>
+                    <a href="#/config"
+                       id="nav-config"
+                       class="px-2 py-1 hover:text-light-link dark:hover:text-term-link">
+                        [Config]
+                    </a>
+                    <a href="#/how-it-works"
+                       id="nav-how"
+                       class="px-2 py-1 hover:text-light-link dark:hover:text-term-link">
+                        [?]
+                    </a>
+                    <span class="text-light-muted dark:text-term-muted">|</span>
+                    <button id="fetch-btn"
+                            class="px-2 py-1 text-light-green dark:text-term-green hover:underline">
+                        [Fetch]
+                    </button>
+                    <button id="theme-toggle"
+                            class="px-2 py-1 text-light-muted dark:text-term-muted hover:text-light-text dark:hover:text-term-text">
+                        <span class="dark:hidden">[light]</span>
+                        <span class="hidden dark:inline">[dark]</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main content -->
+        <main id="app" class="flex-1 py-6">
+            <!-- Content loaded by router -->
+            <div class="text-light-muted dark:text-term-muted">Loading...</div>
+        </main>
+    </div>
+
+    <!-- JavaScript modules -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

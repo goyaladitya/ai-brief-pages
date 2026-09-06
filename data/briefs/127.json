@@ -1,0 +1,73 @@
+{
+  "id": 127,
+  "generated_at": "2026-05-31T06:59:23.662471",
+  "item_count": 4,
+  "sources_checked": 6,
+  "sources_failed": 0,
+  "items": [
+    {
+      "headline": "My home data center",
+      "summary": "System 1: Threadripper 3960x 24c 4x 3090 ti 128gb ddr4 System 2: Xeon 8352 36c 4x 5070 ti  128gb ddr4 System 3: Intel 14700k 24c 64gb ddr5 5090 System 4: Ryzen 5950x 16c 64gb ddr4 2x 5070 ti The first system uses two PSUs to handle the almost 2000w full load of the 3090s. Was nervous about this but it has been running stable for about a month.  The Intel is an engineering sample that cost $100. I mainly use it to run an embedding model.  I use them for various ml experiments, projects and",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1tshmxa/my_home_data_center/",
+      "published_at": "2026-05-31T06:59:22.822771+00:00",
+      "platforms": "reddit",
+      "platform_count": 1,
+      "engagement": 5090,
+      "trend_score": 0.889,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.387,
+      "source_id": "reddit:LocalLLaMA:t3_1tshmxa",
+      "source_name": "r/LocalLLaMA"
+    },
+    {
+      "headline": "Opus 4.8 Extra is an M-Code Monster",
+      "summary": "I have the 5x plan. I'm a wannabe coder, a poser, if you will. I've great respect for many on this subreddit who are real SWEs. That out of the way... the last 24 hours I've been using Opus 4.8 on Extra (one notch beyond the default) and I'm blown away by how much better it is at PowerQuery M-Code. It is really, REALLY good. I've got some really tough M-Code architecture to put together - planning out some complex Gen2 Dataflows, and for that I'm about to switch to Max. I'm scared for my token b",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1trztfg/opus_48_extra_is_an_mcode_monster/",
+      "published_at": "2026-05-31T06:59:22.990402+00:00",
+      "platforms": "reddit",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.889,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.387,
+      "source_id": "reddit:ClaudeAI:t3_1trztfg",
+      "source_name": "r/ClaudeAI"
+    },
+    {
+      "headline": "NVlabs/Eagle",
+      "summary": "Eagle: Frontier Vision-Language Models with Data-Centric Strategies",
+      "url": "https://github.com/NVlabs/Eagle",
+      "published_at": "2026-05-31T06:59:23.590199+00:00",
+      "platforms": "github",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.62,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.37,
+      "source_id": "github:NVlabs/Eagle",
+      "source_name": "GitHub (Python)"
+    },
+    {
+      "headline": "Openstatus MCP Health Checker",
+      "summary": "Test MCP servers like a real AI client, not just a ping\n          \n          \n            Discussion\n            |\n            Link",
+      "url": "https://www.producthunt.com/products/openstatus-2",
+      "published_at": "2026-05-31T06:59:22.457486+00:00",
+      "platforms": "ph",
+      "platform_count": 1,
+      "engagement": 0,
+      "trend_score": 0.51,
+      "engagement_score": 0.0,
+      "freshness_score": 0.0,
+      "cross_platform_score": 0.0,
+      "relevance_score": 0.387,
+      "source_id": "ph:tag:www.producthunt.com,2005:Post/1157996",
+      "source_name": "Product Hunt"
+    }
+  ]
+}
